@@ -4,6 +4,7 @@ var historicoRespostas = [];
 var resultadosEmpatados = [];
 var resultadoFinalEscolhido = null;
 var nomeParticipante = "";
+var nomeNoivo = "";
 var isTransitioning = false;
 var contagemResultados = {
 	A: 0,
@@ -122,6 +123,7 @@ function getTextoResposta() {
 		"Oi! Acabei de fazer o quiz de personalidade Milla Karolie.",
 		"",
 		"Nome: " + nomeParticipante,
+		"Noivo: " + nomeNoivo,
 		"Resultado: " + resultadoFinalEscolhido.title,
 		"Essência: " + resultadoFinalEscolhido.essencia,
 	].join("\n");
@@ -215,6 +217,12 @@ function iniciaJogo() {
 	nomeParticipante = $("#nome-participante").val().trim();
 	if (!nomeParticipante) {
 		$("#nome-participante").focus();
+		return;
+	}
+
+	nomeNoivo = $("#nome-noivo").val().trim();
+	if (!nomeNoivo) {
+		$("#nome-noivo").focus();
 		return;
 	}
 
