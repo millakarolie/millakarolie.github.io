@@ -72,9 +72,9 @@ var perguntas = [
 var resultados = {
 	A: {
 		title: "A Romântica",
-		essencia: "Bloom",
+		essencia: "Lavanda & Pimenta",
 		description:
-			"Você vive as emoções intensamente e acredita que são os pequenos detalhes que tornam um momento inesquecível. Sua delicadeza é marcante e sua elegância acontece de forma natural.<br><br>Sua essência é...<br><strong>Bloom 🌸</strong><br>Um floral sofisticado, delicado e envolvente. Uma fragrância que celebra o romance com leveza e sofisticação.",
+			"Você vive as emoções intensamente e acredita que são os pequenos detalhes que tornam um momento inesquecível. Sua delicadeza é marcante e sua elegância acontece de forma natural.<br><br>Sua essência é...<br><strong>Lavanda & Pimenta 🌸</strong><br>Uma combinação de contrastes, envolvente e cheia de personalidade. Porque ser delicada não significa ser previsível, e ser feminina também é ter atitude.",
 	},
 	B: {
 		title: "A Contemporânea",
